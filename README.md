@@ -16,5 +16,7 @@ The string in both the publisher and subscriber programs indicates that they are
 
 ![Sent and received event](assets/console.png)
 
-What happened is that our publisher sent five events into the broker. When our subscriber subscribe to the broker, we also received the 5 events.
+What happened is that our publisher sent five events into the broker. When our subscriber subscribe to the broker, we also received the 5 events. Here is our graph after that:
+
+![Spike on graph](assets/spike.png)
 
