@@ -24,3 +24,7 @@ What happened is that our publisher sent five events into the broker. When our s
 
 I sent around 25 messages from publisher. Our subscribe read it one by one with 1 second delay. That is why there is spike on queue and consumer ack.
 
+![Queue_2](assets/queue2.png)
+
+The queued messages graph here is quicker than the previous one because some subscriber has read the messages at least once. Something to improve is remove the thread sleep. Also, we can also use concurrency with thread or something.
+
