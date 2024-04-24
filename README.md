@@ -20,3 +20,7 @@ What happened is that our publisher sent five events into the broker. When our s
 
 ![Spike on graph](assets/spike.png)
 
+![Queue](assets/queue.png)
+
+I sent around 25 messages from publisher. Our subscribe read it one by one with 1 second delay. That is why there is spike on queue and consumer ack.
+
